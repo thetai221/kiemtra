@@ -24,5 +24,15 @@ namespace KiemtraKethucMon
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Meo meo = new Meo();
+            meo.tiengkeu = "Meo meo";           
+            meo.Keu();
+            Cho cho = new Cho();
+            cho.tiengkeu = "Gâu gâu";
+            cho.Keu();
+        }
     }
 }
