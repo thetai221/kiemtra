@@ -31,6 +31,10 @@ namespace KiemtraKethucMon
             meo.tiengkeu = "Meo meo";
             meo.maulong = "nâu";
             meo.Keu();
+        }
+
+        private void Button1_Click(object sender, RoutedEventArgs e)
+        {
             Cho cho = new Cho();
             cho.tiengkeu = "Gâu gâu";
             cho.maulong = "trắng";

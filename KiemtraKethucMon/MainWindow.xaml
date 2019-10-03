@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Height="123" Margin="293,130,0,0" VerticalAlignment="Top" Width="198" Click="Button_Click"/>
+        <Button x:Name="btnMeo" Content="Mèo" HorizontalAlignment="Left" Height="123" Margin="77,66,0,0" VerticalAlignment="Top" Width="198" Click="Button_Click"/>
+        <Button x:Name="btnCho" Content="Chó" HorizontalAlignment="Left" Height="123" Margin="431,66,0,0" VerticalAlignment="Top" Width="215" Click="Button1_Click"/>
 
     </Grid>
 </Window>
