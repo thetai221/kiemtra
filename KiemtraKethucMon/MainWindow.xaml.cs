@@ -28,10 +28,12 @@ namespace KiemtraKethucMon
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Meo meo = new Meo();
-            meo.tiengkeu = "Meo meo";           
+            meo.tiengkeu = "Meo meo";
+            meo.maulong = "nâu";
             meo.Keu();
             Cho cho = new Cho();
             cho.tiengkeu = "Gâu gâu";
+            cho.maulong = "trắng";
             cho.Keu();
         }
     }

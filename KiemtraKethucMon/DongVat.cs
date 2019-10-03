@@ -20,20 +20,21 @@ namespace KiemtraKethucMon
         public DongVat()
         {
         }
+        private string MauLong;
         public string maulong
         {
-            get{return maulong;}
-            set{maulong = value;}
+            get{return MauLong;}
+            set{MauLong = value;}
         }
 
 
 
         public virtual void Keu()
         {
-            if (tiengkeu.Equals("Gâu gâu"))
-                MessageBox.Show("Chó kêu" + this.tiengkeu );
-            else if (tiengkeu.Equals("Meo meo"))
-                MessageBox.Show("Mèo kêu" +this.tiengkeu );
+            if (tiengkeu.Equals("Gâu gâu") && (maulong.Equals("trắng")))
+                MessageBox.Show(this.tiengkeu + " Tôi là chó lông màu:" + this.maulong);
+            else if (tiengkeu.Equals("Meo meo") && (maulong.Equals("nâu")))
+                MessageBox.Show(this.tiengkeu + " Tôi là mèo lông màu:" + this.maulong);
         }
     }
 }
